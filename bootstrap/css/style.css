@@ -1,0 +1,229 @@
+*{
+	padding:0;
+	margin: 0;
+	box-sizing: border-box;
+	
+}
+html,body{
+	width: 100%;
+	height: 100%;
+	overflow-x: hidden;
+	
+}
+p{
+	text-align: justify;
+}
+.first-left p{
+		width: 80%;
+		float: left;
+
+	}
+	.second-left p{
+		width: 80%;
+		float: left;
+
+	}
+	.first-left  i{
+    
+	float: right;
+	display: inline-block;
+	
+	
+	}
+	
+		.second-left i{
+ 
+	float: right;
+	display: inline-block;
+}
+
+.first i:hover{
+	background-color: white;
+	color: #17a2b8;
+}
+
+ 
+	.second-left  :hover{
+     
+		background-color: #17a2b8;
+		color: white;
+
+
+	}
+.second-right :hover{
+     
+		background-color: #17a2b8;
+		color: white;
+
+	}
+.first-right :hover{
+     
+		background-color: #17a2b8;
+		color: white;
+
+	}
+	.first-left :hover{
+     
+		background-color: #17a2b8;
+		color: white;
+
+	}
+
+
+@media screen and (max-width:700px){
+	main{
+		box-sizing: border-box;
+		display: block;
+		float: none;
+        margin: auto;
+		text-align: justify;
+
+	}
+	img{
+		width: 100%;
+		
+	}
+/*start first left */
+	.first {
+     
+		margin-left:-40px;
+		margin-right: 60px;
+		display: inline-block;
+		height: auto;
+
+	}
+
+
+	.first-left i{
+		margin-top: -200px;
+	}
+	.first-left{
+		margin-bottom: 20px;
+	}
+
+	/*start first right*/
+
+	.first-right {
+    margin-left: 48px;
+    padding-left: 40px;
+
+	}
+
+.first-right p,h4{
+		width:60%;
+		float: right;
+	}
+.first-right h4	{
+	padding-left: 100px;
+}
+
+	}
+
+
+	/*start second*/
+
+	
+
+/*start second-left*/
+
+	.second-left p,h4{
+		width:75%;
+		float: left;
+		margin-bottom: -90px;
+		
+	}
+	.second-left i{
+
+		float: right;
+		margin-bottom: 20px;
+	
+		
+		
+	}
+/*start second right*/
+.second-right {
+	margin-top: 20px;
+    margin-left: 48px;
+    padding-left: 40px;
+
+	}
+
+.second-right p,h4{
+		width:85%;
+		float: right;
+		margin-top: -40px;
+	}
+.second-right h4	{
+	margin-top:-75px;
+
+}
+
+
+
+
+/*start card 2*/
+.CMS-Installation p{
+text-align: center;
+}
+
+
+
+/*app-development*/
+
+
+.app-development{
+	margin-top: 20px;
+	margin-left: 22px;
+
+
+}
+
+/*Graphics-Design*/
+.Graphics-Design{
+	margin-top: 20px;
+	margin-left: 22px;	
+}
+}
+
+div ul li a{
+ font-size: 19px;
+ 
+ 
+}
+.text-info {
+    color: #40b6cf !important;
+}
+ .bg-info{
+	width: 400px;
+	height:auto;
+	border:70%;
+}
+
+.fa-cloud {
+	
+font-size: 20px;
+	width: 70px;
+	height: 70px;
+
+	border-radius: 50%;
+	text-align: center;
+	color: white;
+	background-color: #17a2b8;
+}
+/*start card2*/
+.card2{
+	background-color: #033E42;
+	color: white;
+}
+/*start image2*/
+.image2 i{
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	background-color: #17a2b8;
+
+	padding-top:15px;
+	margin: 10px;
+
+
+}
