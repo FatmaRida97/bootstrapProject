@@ -13,8 +13,14 @@ html,body{
 p{
 	text-align: justify;
 }
+.fa-cloud:hover{
+	background-color: white;
+	color:#17a2b8;
+	 
+}
+
 .first-left p{
-		width: 80%;
+		width: 100%;
 		float: left;
 
 	}
@@ -37,23 +43,14 @@ p{
 	display: inline-block;
 }
 
-.first i:hover{
-	background-color: white;
-	color: #17a2b8;
-}
 
- 
-	.second-left  :hover{
+
+
+	.first-left  :hover{
      
 		background-color: #17a2b8;
 		color: white;
 
-
-	}
-.second-right :hover{
-     
-		background-color: #17a2b8;
-		color: white;
 
 	}
 .first-right :hover{
@@ -62,17 +59,15 @@ p{
 		color: white;
 
 	}
-	.first-left :hover{
-     
-		background-color: #17a2b8;
-		color: white;
-
-	}
-
+.fa-cloud:hover{
+	background-color: white;
+	color:#17a2b8;
+	 
+}
 
 @media screen and (max-width:700px){
 	main{
-		box-sizing: border-box;
+		/*box-sizing: border-box;*/
 		display: block;
 		float: none;
         margin: auto;
@@ -84,98 +79,12 @@ p{
 		
 	}
 /*start first left */
-	.first {
-     
-		margin-left:-40px;
-		margin-right: 60px;
-		display: inline-block;
-		height: auto;
+	.first-right{
 
+		margin-top: 20px;
+		width: 103%;
 	}
-	.first-left p,h4{
-		width: 60%;
-		float: left;
-	}
-.first-left h4{
-	margin-left: 0px;
-}
-
-
-	.first-left i{
-		float: right;
-		margin-top: -200px;
-	}
-	.first-left{
-		margin-bottom: 20px;
-	}
-
-
-	/*start first right*/
-
-	.first-right {
-    margin-left: 48px;
-    padding-left: 40px;
-
-	}
-
-.first-right p,h4{
-		width:60%;
-		float: right;
-	}
-.first-right h4	{
-	padding-left: 100px;
 	
-}
-
-	}
-
-
-	/*start second*/
-
-	
-
-/*start second-left*/
-.second{
-	margin-left: -40px;
-}
-
-	.second-left p,h4{
-		width:75%;
-		float: left;
-		margin-top:10px;
-		
-	}
-	.second-left i{
-
-		float: right;
-	margin-bottom: 20px;
-	
-		
-		
-	}
-/*start second right*/
-.second-right {
-	margin-right: -70px;
-	margin-top: 20px;
-    margin-left: 48px;
-    padding-left: 40px;
-
-	}
-.second-right i{
-	width: 30%;
-	float: left;
-}
-
-
-.second-right p,h4{
-		width:65%;
-		float: right;
-		margin-top: -40px;
-	}
-.second-right h4	{
-	margin-top:-75px;
-
-}
 
 
 /*start card 2*/
