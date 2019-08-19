@@ -92,14 +92,23 @@ p{
 		height: auto;
 
 	}
+	.first-left p,h4{
+		width: 60%;
+		float: left;
+	}
+.first-left h4{
+	margin-left: 0px;
+}
 
 
 	.first-left i{
+		float: right;
 		margin-top: -200px;
 	}
 	.first-left{
 		margin-bottom: 20px;
 	}
+
 
 	/*start first right*/
 
@@ -126,31 +135,40 @@ p{
 	
 
 /*start second-left*/
+.second{
+	margin-left: -40px;
+}
 
 	.second-left p,h4{
 		width:75%;
 		float: left;
-		margin-bottom: -90px;
+		margin-top:10px;
 		
 	}
 	.second-left i{
 
 		float: right;
-		margin-bottom: 20px;
+	margin-bottom: 20px;
 	
 		
 		
 	}
 /*start second right*/
 .second-right {
+	margin-right: -70px;
 	margin-top: 20px;
     margin-left: 48px;
     padding-left: 40px;
 
 	}
+.second-right i{
+	width: 30%;
+	float: left;
+}
+
 
 .second-right p,h4{
-		width:85%;
+		width:65%;
 		float: right;
 		margin-top: -40px;
 	}
@@ -158,8 +176,6 @@ p{
 	margin-top:-75px;
 
 }
-
-
 
 
 /*start card 2*/
